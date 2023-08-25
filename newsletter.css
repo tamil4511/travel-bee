@@ -1,0 +1,104 @@
+
+ .newsletter form{
+    max-width: 70rem;
+    margin-left: auto;
+    text-align:center;
+    padding: 5rem 20px;
+    margin-bottom: 20px;
+ 
+ }
+ .newsletter {
+   background-image: url("./img/pexels-pixabay-415958.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+ .newsletter form h3{
+    font-size: 3.2rem;
+    color:#d9296f;
+    padding-bottom: .7rem;
+ }
+ .newsletter form .box{
+    width: 100%;
+    margin: .9rem 0;
+    padding: 1.5rem 1.2rem;
+    font-size: 1.6rem;
+    color: var(--black); border-radius: 9rem;
+    text-transform: none;
+ }
+ .newsletter form .box .btn:hover:hover{
+  background-color: #d9296f;
+  color: #d9296f;
+}
+ 
+ 
+ @media(max-width:750px){
+    .newsletter{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+  
+
+.footer{
+   background-color: var(--light-bg);
+}
+
+.footer .box-container{
+   max-width: 1200px;
+   margin:0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap:3rem;
+}
+
+.footer .box-container .box h3{
+   text-transform: uppercase;
+   color:var(--black);
+   font-size: 2rem;
+   padding-bottom: 2rem;
+}
+
+.footer .box-container .box p,
+.footer .box-container .box a{
+   display: block;
+   font-size: 1.7rem;
+   color:var(--light-color);
+   padding:1rem 0;
+}
+
+.footer .box-container .box p i,
+.footer .box-container .box a i{
+   color:#d9296f;
+   padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover{
+   color:#d9296f;
+   text-decoration: underline;
+}
+
+.footer .credit{
+   text-align: center;
+   font-size: 2rem;
+   color:var(--light-color);
+   border-top: var(--border);
+   margin-top: 2.5rem;
+   padding-top: 2.5rem;
+}
+
+.footer .credit span{
+   color:var(--purple);
+}
+
+
+
+ 
