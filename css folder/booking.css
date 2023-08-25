@@ -1,0 +1,87 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.head{
+    margin-top: 7%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.input-group-addon {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.helpblock {
+    color: #d9534f;
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.checkbox label {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
